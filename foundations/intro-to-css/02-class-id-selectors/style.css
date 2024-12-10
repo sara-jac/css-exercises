@@ -1,0 +1,18 @@
+p.pink {
+  background-color: hsl(350, 68%, 75%);
+  font-family: Verdana, "DejuVu Sans", sans-serif;
+}
+
+.bigger, div#green {
+  font-size: 24px;
+}
+
+div#blue {
+  color: rgb(0, 0, 255);
+  font-size: 36px;
+}
+
+div#green {
+  background-color: #51eb51;
+  font-weight: bold;
+}
