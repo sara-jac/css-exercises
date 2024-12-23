@@ -2,6 +2,7 @@
 
 html, body {
   height: 100%;
+
 }
 
 body {
@@ -20,7 +21,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 12px;
+  padding: 12px;
 }
+
 
 .icon {
   color: royalblue;
@@ -33,6 +38,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .close-button {
@@ -43,11 +58,16 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
+  border: 1px solid #eee;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.button-container {
+  padding: 12px 0 2px;
 }
 
 button {
